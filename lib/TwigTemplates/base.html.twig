@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{% block title %}Welcome{% endblock %} | RH.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Website By Rob Hilgefort">
+    <meta name="author" content="Rob Hilgefort">
+
+    <!-- CSS Includes -->
+    {% block stylesheets %}{% endblock %}
+
+    <!-- JS Includes -->
+    {% block javascripts %}{% endblock %}
+
+    <!-- Other Includes -->
+    {% block otherIncludes %}{% endblock %}
+
+  </head>
+  <body>
+    {% block body %}
+      {# Everything in child templates, goes here #}
+    {% endblock %}
+
+    <!-- Google Analytics -->
+    {% block googleAnalytics %}{% endblock %}
+
+  </body>
+</html>
