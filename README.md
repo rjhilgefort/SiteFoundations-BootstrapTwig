@@ -12,14 +12,14 @@ being executed on a server. It won't look like much, the project is meant to
 be fairly general and independent of any real content. Anyhow, it can be seen 
 here:
 
-http://www.robhilgefort.com/rjh/starter/demo/index.html
+http://www.robhilgefort.com/rjh/starter/demo/
 
 It is almost certainly not up to date with the latest changes from my 
 development unit. There you will find a mirror of what has been committed to 
 the repo. The demo could be broken at any given time, but check it out, maybe 
 it will be functional.
 
-http://www.robhilgefort.com/rjh/starter/src
+http://www.robhilgefort.com/rjh/starter/src/
 
 
 Contributing
