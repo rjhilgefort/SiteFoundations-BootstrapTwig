@@ -10,3 +10,9 @@ nbproject/private/private.xml
 nbproject/project.properties
 
 nbproject/project.xml
+
+src/compilation_cache/.DS_Store
+
+src/.DS_Store
+
+.DS_Store
