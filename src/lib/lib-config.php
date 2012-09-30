@@ -19,7 +19,7 @@ class config {
   public function load($includeAppConfig=false, $loadTwig=false){
     try
     { 
-     //includeAppConfig
+      //includeAppConfig
       if($includeAppConfig === false){
         //do nothing
       }elseif($includeAppConfig === true){
