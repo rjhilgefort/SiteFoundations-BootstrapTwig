@@ -11,7 +11,7 @@ $(function(){
       growl("warning", "Warning Example: They will also stack if there is more than one issue");
     }, 4000);
     setTimeout(function() {
-      growl("danger", "Danger Example: They will fade away automatically");
+      growl("error", "Danger Example: They will fade away automatically");
     }, 7000);
     setTimeout(function() {
       growl("success", "Success Example: You have just seen all four types of notifications");

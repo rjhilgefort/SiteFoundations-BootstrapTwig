@@ -1,7 +1,7 @@
 <?php
 require_once 'lib/lib-config.php';
 $config = new config();
-$twig = $config->load(true, true);
+$twig = $config->load();
 
 //do stuff
 

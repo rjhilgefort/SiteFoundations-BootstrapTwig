@@ -16,7 +16,7 @@ class config {
     $this->root = dirname(__DIR__);
   }
 
-  public function load($includeAppConfig=false, $loadTwig=false){
+  public function load($includeAppConfig=true, $loadTwig=true){
     try
     { 
       //includeAppConfig

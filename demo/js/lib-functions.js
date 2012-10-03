@@ -5,7 +5,7 @@ function growl (message_type, message) {
     message = '<span class="label label-info"><i class="icon-info-sign icon-white"></i> Info</span> ' + message;
   }else if(message_type == 'warning'){
     message = '<span class="label label-warning"><i class="icon-warning-sign icon-white"></i> Warning</span> ' + message;
-  }else if(message_type == 'danger'){
+  }else if(message_type == 'error'){
     message = '<span class="label label-important"><i class="icon-exclamation-sign icon-white"></i> Error</span> ' + message;
   }else if(message_type == 'success'){
     message = '<span class="label label-success"><i class="icon-ok-sign icon-white"></i> Success</span> ' + message;
