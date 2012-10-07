@@ -1,0 +1,26 @@
+{% extends 'lib/general.html.twig' %}
+
+{% block title %}Something Awesome{% endblock %}
+{% block description %}Something Awesome{% endblock description %}
+{% block author %}Something Awesome{% endblock author %}
+
+{% block cssApp %}
+  <link href="app/main.less" type="text/less" rel="stylesheet" media="screen" />
+  {% block cssPage %}{% endblock cssPage %}
+{% endblock cssApp %}
+
+{% block jsApp %}
+  <script src="app/main.js" type="text/javascript"></script>
+  {% block jsPage %}{% endblock jsPage %}
+{% endblock jsApp %}
+
+{% block otherApp %}
+  <link rel="shortcut icon" href="http://robhilgefort.com/rhcircle.ico" />
+  {% block otherPage %}{% endblock otherPage %}
+{% endblock otherApp %}
+
+{% block body %}
+  
+  {% block content %}
+  {% endblock content %}
+{% endblock body %}
